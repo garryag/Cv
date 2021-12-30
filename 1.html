@@ -1,0 +1,136 @@
+<hr />
+<!--
+HTML Headings
+HTML headings are titles or subtitles that you want to display on a webpage.
+HTML headings are defined with the <h1> to <h6> tags.
+<h1> defines the most important heading (biggest in size). <h6> defines the least important heading (smallest in size).
+-->
+<h1>Various types of html headings</h1>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<br /><br />
+<!--
+<br> The Line Break element
+The <br> HTML tag produces a line break in text (carriage-return). It is useful for writing a poem or an address, 
+where the division of lines is significant.
+-->
+<h3>Address with br tag<br /></h3>
+Mozilla<br />331 E. Evelyn Avenue<br />Mountain View, CA<br />94041<br />USA<br />
+<h3>Address without br tag<br /></h3>
+Mozilla 331 E. Evelyn Avenue Mountain View, CA 94041 USA
+<br /><br />
+<!--
+<hr> The horizontal rule tag
+the <hr> tag is used to insert a horizontal line in the main screen.
+-->
+<hr />
+<br />
+<!--
+HTML Tags: Tags are the starting and ending parts of an HTML element. They begin with < symbol and end with > symbol. 
+Whatever written inside < and > are called tags.
+
+HTML elements: Elements enclose the contents in between the tags. They consist of some kind of structure or expression.
+It generally consists of a start tag, content and an end tag.
+
+HTML Attributes: It is used to define the character of an HTML element. It always placed in the opening tag of an element.
+It generally provides additional styling (attribute) to the element.
+for example:
+-->
+
+<hr size="2" noshade />
+<br />
+<!-- the above line is a horizontal line with size 2pixels and noshading -->
+<hr size="3" noshade />
+<br />
+<!--in the above line, hr is the HTML tag and size="3" is the attribute.-->
+<!--
+The <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text 
+    separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any 
+    structural grouping of related content, such as images or form fields.
+-->
+<p align="center">This is a paragraph</p>
+<!--In this code, <p></p> are the HTML tags. This is paragraph is HTML elements and align=”center” is the HTML attributes.-->
+
+<!--
+    the <em> tag
+        this tag is used to lay emphasis on the text being tagged here.
+        basically it italicizes the text.
+-->
+<p align="center"><em>This is paragraph 2</em></p>
+<!--
+    the <strong> tag
+        this tag is used to strongen the text being tagged here.
+        basically it boldens the text.
+-->
+<p align="center"><strong>This is paragraph 3</strong></p>
+<h3>Education</h3>
+<ul>
+  <!--the <ul> tag creates an unordered list with bullets in it-->
+  <li>Schooling.</li>
+  <!--for each item in the bullet list, we have to tag them in <li> -->
+  <li>College</li>
+  <li>Tuition</li>
+</ul>
+<!-- <ul> tag ends -->
+<h3>numbered list</h3>
+<!-- the <ol> tag creates an ordered list(numbers,romans,alphabets) -->
+<ol>
+  <!-- the <ol> tag creates an ordered list of numbers -->
+  <li>Badminton</li>
+  <li>Cricket</li>
+  <li>Reading</li>
+</ol>
+<h3>Roman list</h3>
+<ol type="i">
+  <!-- the <ol> tag creates an ordered list of romans -->
+  <li>Badminton</li>
+  <li>Cricket</li>
+  <li>Reading</li>
+</ol>
+<h3>alphabetic list</h3>
+<ol type="a">
+  <!-- the <ol> tag creates an ordered list of alphabets -->
+  <li>Badminton</li>
+  <li>Cricket</li>
+  <li>Reading</li>
+</ol>
+<h3>list starting from some random index</h3>
+<ol start="3">
+  <!-- the <ol> tag creates an ordered list with index starting from some random number -->
+  <li>Badminton</li>
+  <li>Cricket</li>
+  <li>Reading</li>
+</ol>
+<h3>list with reversed index</h3>
+<ol start="3" reversed>
+  <!-- the <ol> tag creates an ordered list with reversed indexes -->
+  <li>Badminton</li>
+  <li>Cricket</li>
+  <li>Reading</li>
+</ol>
+<h3>list with different indexes</h3>
+<ol>
+  <li value="2">Badminton</li>
+  <!-- the <li value=" "> tag creates an ordered list with value index -->
+  <li value="4">Cricket</li>
+  <li value="9">Reading</li>
+</ol>
+<form>
+  <!--the <form> tag allows you to create some form defined entries on your webpage-->
+  <label>Name:</label>
+  <!--the label tag allows you to write some label for the input 
+    you are about to take from the user-->
+  <input type="text" />
+  <!--the input label allows you to take inputs from the user in the form created.-->
+  <!--the text type attribute allows us to create an input which can take text input-->
+  <input type="submit" />
+  <!--the submit type attribute allows us to create a submit button to let user submit the input -->
+  <br />
+  <label>Password:</label>
+  <input type="password" />
+  <input type="submit" />
+</form>
